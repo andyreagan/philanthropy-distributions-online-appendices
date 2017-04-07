@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Storylab</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1>Collective Philanthropy: Describing and Modeling the Ecology of Giving [<a href="http://arxiv.org/abs/1307.2278" target="_blank">pdf</a>] [<a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098876" target="_blank">PLOS One</a>]</h1>
+
+      <h4>William L Gottesman, Andrew James Reagan, Peter Sheridan Dodds</h4>
+
+      <div id="topteamrow"></div>
+
+      <nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+	    </button>
+	    <!-- <a class="navbar-brand" href="#">Appendices:</a> -->
+	    <a class="navbar-brand" href="index.html">Online Appendices</a>
+	  </div>
+
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <ul class="nav navbar-nav">
+              <li><a href="index.html">Main</a></li>
+              <li><a href="viz.html">Visualizations</a></li>
+              <li class="active"><a href="data.html">Data</a></li>
+              <li><a href="team.html">Team</a></li>
+	    </ul>
+	  </div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+      </nav>
+
+
+      <div class="container-fluid">
+	<div class="row">
+	  <div class="col-hidden-xs col-sm-2">
+	  </div>
+	  <div class="col-xs-12 col-sm-8">
+
+	    <h3>Data</h3>
+
+	    <p> The data files are below.
+	      Within the archive is a README.md file that contains a more detailed description of that data, and a short python script to load it.
+	      A shorter description is as follows.
+	      Each downloadable archive contains a CSV file for each institution.
+	      The file for each institution is a csv with columns for each data set, with one column per year of data.
+	      The first line of each file is the years, and the anonymized donations are sorted. 
+	    </p>
+
+	    <a href="data/philanthropy-data.tar">Tar archive (.tar)</a> <br>
+	    <a href="data/philanthropy-data.tgz">Tar, gzipped archive (.tgz)</a> <br>
+	    <a href="data/philanthropy-data.zip">Zip archive (.zip)</a>
+
+	  </div>
+	  <div class="col-hidden-xs col-sm-2">
+	  </div>
+	</div>
+      </div>
+
+
+
+    </div><!-- /.container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/d3.andy.js"></script>
+    <script src="js/topteam.js"></script>
+  </body>
+</html>
